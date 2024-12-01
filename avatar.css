@@ -1,0 +1,77 @@
+*{  font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* start global rules */
+body{
+    background-image: linear-gradient(to right ,#01022d ,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image:linear-gradient(to right,#01022de5 30%,#0000006b),
+    url(photo/2880.webp)
+    ;
+    width: 89%;
+    height: 640px;
+}
+.container:hover{
+    background-image:linear-gradient(to right,#01022de5 30%, transparent),
+    url(photo/2880.webp)
+    ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color:white ;
+}
+.contint{
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.contint h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.contint p{
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 20px 0;
+}
+.contint button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.contint button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
